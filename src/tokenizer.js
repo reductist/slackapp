@@ -1,16 +1,10 @@
-const tokenizer = require('string-tokenizer');
-
 const parseCommand = (commandText) => {
-  const tokens = tokenizer()
-    .input(commandText)
-    .token('type',        /treasure|coins/)
-    .token('tableID',     /table\d?\d/)
-    .token('rollNumber',  /(?:\s)100|[1-9]?[0-9]$/) 
-    .resolve()
+  const regex = /^(?<type>treasure|coin)(?:\stable=)(?<table>\d+?\d+)(?:\sroll=)(?<roll>\d+\d+)$/gyi;
+  const matches = regex.exec(commandText);
   return {
-    type:  tokens.type,
-    table: tokens.tableID,
-    roll:  tokens.rollNumber,
+    type:  matches.groups.type,
+    table: matches.groups.table,
+    roll:  matches.groups.roll,
   }
 }
 

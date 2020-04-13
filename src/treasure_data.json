@@ -1,0 +1,653 @@
+[
+  {
+    "table": "table0_4",
+    "table_low": 0,
+    "table_high": 4,
+    "properties": [
+      {
+        "roll_low": 1,
+        "roll_high": 6,
+        "precious_objects": "-",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 7,
+        "roll_high": 16,
+        "precious_objects": "2d6 (7) l0 gp gems",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 17,
+        "roll_high": 26,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 27,
+        "roll_high": 36,
+        "precious_objects": "2d6 (7) 50 gp gems",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 37,
+        "roll_high": 44,
+        "precious_objects": "2d6 (7) 10 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table A."
+      },
+      {
+        "roll_low": 45,
+        "roll_high": 52,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table A."
+      },
+      {
+        "roll_low": 53,
+        "roll_high": 60,
+        "precious_objects": "2d6 (7) 50 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table A."
+      },
+      {
+        "roll_low": 61,
+        "roll_high": 65,
+        "precious_objects": "2d6 (7) 10 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 66,
+        "roll_high": 70,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 71,
+        "roll_high": 75,
+        "precious_objects": "2d6 (7) 50 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 76,
+        "roll_high": 78,
+        "precious_objects": "2d6 (7) 10 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 79,
+        "roll_high": 80,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 81,
+        "roll_high": 85,
+        "precious_objects": "2d6 (7) 50 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 86,
+        "roll_high": 92,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table F."
+      },
+      {
+        "roll_low": 93,
+        "roll_high": 97,
+        "precious_objects": "2d6 (7) 50 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table F."
+      },
+      {
+        "roll_high": 99,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 100,
+        "roll_high": 100,
+        "precious_objects": "2d6 (7) 50 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table G."
+      }
+    ]
+  },
+  {
+    "table": "table5_10",
+    "table_low": 5,
+    "table_high": 10,
+    "properties": [
+      {
+        "roll_low": 1,
+        "roll_high": 4,
+        "precious_objects": "-",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 5,
+        "roll_high": 10,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 11,
+        "roll_high": 16,
+        "precious_objects": "3d6 (10) 50 gp gem",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 17,
+        "roll_high": 22,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 23,
+        "roll_high": 28,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 29,
+        "roll_high": 32,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table A."
+      },
+      {
+        "roll_low": 33,
+        "roll_high": 36,
+        "precious_objects": "3d6 (10) 50 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table A."
+      },
+      {
+        "roll_low": 37,
+        "roll_high": 40,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table A."
+      },
+      {
+        "roll_low": 41,
+        "roll_high": 44,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table A."
+      },
+      {
+        "roll_low": 45,
+        "roll_high": 49,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 50,
+        "roll_high": 54,
+        "precious_objects": "3d6 (10) 50 gp g ems",
+        "magic_items": "Roll 1d4 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 55,
+        "roll_high": 59,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 60,
+        "roll_high": 63,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 64,
+        "roll_high": 66,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 67,
+        "roll_high": 69,
+        "precious_objects": "3d6 (l 0) 50 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 70,
+        "roll_high": 72,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 73,
+        "roll_high": 74,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 75,
+        "roll_high": 76,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll once on Magic Item Table D."
+      },
+      {
+        "roll_low": 77,
+        "roll_high": 78,
+        "precious_objects": "3d6 (10) 50 gp gems",
+        "magic_items": "Roll once on Magic Item Table D."
+      },
+      {
+        "roll_low": 79,
+        "roll_high": 79,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "Roll once on Magic Item Table D."
+      },
+      {
+        "roll_low": 80,
+        "roll_high": 80,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll once on Magic Item Table D."
+      },
+      {
+        "roll_low": 81,
+        "roll_high": 84,
+        "precious_objects": "2d4 (5) 25 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table F."
+      },
+      {
+        "roll_low": 85,
+        "roll_high": 88,
+        "precious_objects": "3d6 (10) 50 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table F."
+      },
+      {
+        "roll_low": 89,
+        "roll_high": 91,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table F."
+      },
+      {
+        "roll_low": 92,
+        "roll_high": 94,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table F."
+      },
+      {
+        "roll_low": 95,
+        "roll_high": 96,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 97,
+        "roll_high": 98,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 99,
+        "roll_high": 99,
+        "precious_objects": "3d6 (10) 100 gp gems",
+        "magic_items": "Roll once on Magic Item Table H."
+      },
+      {
+        "roll_low": 100,
+        "roll_high": 100,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll once on Magic Item Table H."
+      }
+    ]
+  },
+  {
+    "table": "table11_16",
+    "table_low": 11,
+    "table_high": 16,
+    "properties": [
+      {
+        "roll_low": 1,
+        "roll_high": 3,
+        "precious_objects": "-",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 4,
+        "roll_high": 6,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 7,
+        "roll_high": 10,
+        "precious_objects": "2d4 (5) 750 gp art objects",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 11,
+        "roll_high": 12,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 13,
+        "roll_high": 15,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 16,
+        "roll_high": 19,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table A and 1d6 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 20,
+        "roll_high": 23,
+        "precious_objects": "2d4 (5) 750 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table A and 1d6 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 24,
+        "roll_high": 26,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table A and 1d6 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 27,
+        "roll_high": 29,
+        "precious_objects": "3d6 (1 0) 1,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table A and 1d6 times on Magic Item Table B."
+      },
+      {
+        "roll_low": 30,
+        "roll_high": 35,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 36,
+        "roll_high": 40,
+        "precious_objects": "2d4 (5) 750 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 41,
+        "roll_high": 45,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 46,
+        "roll_high": 50,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 51,
+        "roll_high": 54,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table D"
+      },
+      {
+        "roll_low": 55,
+        "roll_high": 58,
+        "precious_objects": "2d4 (5) 750 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table D."
+      },
+      {
+        "roll_low": 59,
+        "roll_high": 62,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table D."
+      },
+      {
+        "roll_low": 63,
+        "roll_high": 66,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table D."
+      },
+      {
+        "roll_low": 67,
+        "roll_high": 68,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll once on Magic Item Table E."
+      },
+      {
+        "roll_low": 69,
+        "roll_high": 70,
+        "precious_objects": "2d4 (5) 750 gp art objects",
+        "magic_items": "Roll once on Magic Item Table E."
+      },
+      {
+        "roll_low": 71,
+        "roll_high": 72,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "Roll once on Magic Item Table E."
+      },
+      {
+        "roll_low": 73,
+        "roll_high": 74,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll once on Magic Item Table E."
+      },
+      {
+        "roll_low": 75,
+        "roll_high": 76,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll once on Magic Item Table F and 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 77,
+        "roll_high": 78,
+        "precious_objects": "2d4 (5) 750 gp art objects",
+        "magic_items": "Roll once on Magic Item Table F and 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 79,
+        "roll_high": 80,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "Roll once on Magic Item Table F and 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 81,
+        "roll_high": 82,
+        "precious_objects": "3d6 (1 0) 1,000 gp gems",
+        "magic_items": "Roll once on Magic Item Table F and 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 83,
+        "roll_high": 85,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 86,
+        "roll_high": 88,
+        "precious_objects": "2d4 (5) 750 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 89,
+        "roll_high": 90,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 91,
+        "roll_high": 92,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 93,
+        "roll_high": 94,
+        "precious_objects": "2d4 (5) 250 gp art objects",
+        "magic_items": "Roll once on Magic Item Table I."
+      },
+      {
+        "roll_low": 95,
+        "roll_high": 96,
+        "precious_objects": "3d6 (10) 500 gp gems",
+        "magic_items": "Roll once on Magic Item Table I."
+      },
+      {
+        "roll_low": 97,
+        "roll_high": 98,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll once on Magic Item Table I."
+      },
+      {
+        "roll_low": 99,
+        "roll_high": 0,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll once on Magic Item Table I."
+      }
+    ]
+  },
+  {
+    "table": "table17",
+    "table_low": 17,
+    "table_high": 17,
+    "properties": [
+      {
+        "roll_low": 1,
+        "roll_high": 2,
+        "precious_objects": "-",
+        "magic_items": "-"
+      },
+      {
+        "roll_low": 3,
+        "roll_high": 5,
+        "precious_objects": "3d6 (1 0) 1, 000 gp gems",
+        "magic_items": "Roll 1d8 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 6,
+        "roll_high": 8,
+        "precious_objects": "1d10 (5) 2,500 gp art objects",
+        "magic_items": "Roll 1d8 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 9,
+        "roll_high": 11,
+        "precious_objects": "1d4 (2) 7,500 gp art objects",
+        "magic_items": "Roll 1d8 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 12,
+        "roll_high": 14,
+        "precious_objects": "1d8 (4) 5,000 gp gems",
+        "magic_items": "Roll 1d8 times on Magic Item Table C."
+      },
+      {
+        "roll_low": 15,
+        "roll_high": 22,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table D."
+      },
+      {
+        "roll_low": 23,
+        "roll_high": 30,
+        "precious_objects": "1dl0 (5) 2,500 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table D."
+      },
+      {
+        "roll_low": 31,
+        "roll_high": 38,
+        "precious_objects": "1d4 (2) 7, 500 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table D."
+      },
+      {
+        "roll_low": 39,
+        "roll_high": 46,
+        "precious_objects": "1d8 (4) 5,000 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table D"
+      },
+      {
+        "roll_low": 47,
+        "roll_high": 52,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table E."
+      },
+      {
+        "roll_low": 53,
+        "roll_high": 58,
+        "precious_objects": "1d10 (5) 2,500 gp art objects",
+        "magic_items": "Roll1d6 times on Magic Item Table E."
+      },
+      {
+        "roll_low": 59,
+        "roll_high": 63,
+        "precious_objects": "1d4 (2) 7,500 gp art objects",
+        "magic_items": "Roll 1d6 times on Magic Item Table E."
+      },
+      {
+        "roll_low": 64,
+        "roll_high": 68,
+        "precious_objects": "1d8 (4) 5, 000 gp gems",
+        "magic_items": "Roll 1d6 times on Magic Item Table E."
+      },
+      {
+        "roll_low": 69,
+        "roll_high": 69,
+        "precious_objects": "3d6 (1 0) 1,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 70,
+        "roll_high": 70,
+        "precious_objects": "1d10 (5) 2,500 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 71,
+        "roll_high": 71,
+        "precious_objects": "1d4 (2) 7,500 gp art objects",
+        "magic_items": "Roll1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 72,
+        "roll_high": 72,
+        "precious_objects": "1d8 (4) 5,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 73,
+        "roll_high": 74,
+        "precious_objects": "3d6 (1 0) 1,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 75,
+        "roll_high": 76,
+        "precious_objects": "ld10 (5) 2,500 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 77,
+        "roll_high": 78,
+        "precious_objects": "1d4 (2) 7,500 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 79,
+        "roll_high": 80,
+        "precious_objects": "1d8 (4) 5,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table H."
+      },
+      {
+        "roll_low": 81,
+        "roll_high": 85,
+        "precious_objects": "3d6 (10) 1,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table I."
+      },
+      {
+        "roll_low": 86,
+        "roll_high": 90,
+        "precious_objects": "1d10 (5) 2,500 gp art objects",
+        "magic_items": "Roll 1d4 times on Magic Item Table I."
+      },
+      {
+        "roll_low": 91,
+        "roll_high": 95,
+        "precious_objects": "ld4 (2) 7,500 gp art objects",
+        "magic_items": "Roll once on Magic Item Table F and 1d4 times on Magic Item Table G."
+      },
+      {
+        "roll_low": 96,
+        "roll_high": 100,
+        "precious_objects": "1d8 (4) 5,000 gp gems",
+        "magic_items": "Roll 1d4 times on Magic Item Table I."
+      }
+    ]
+  }
+]

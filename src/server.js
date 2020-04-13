@@ -1,7 +1,7 @@
 const Express = require('express');
 const request = require('request');
 const bodyParser = require('body-parser');
-const findTreasure = require('./treasure.js');
+const findTreasure = require('./findTreasure.js');
 const slashCommandFactory = require('./slashCommand.js');
 
 const app = new Express();
@@ -11,17 +11,16 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const {PORT} = process.env
 
 // Ngrok port
-const port = PORT || 80
-
-const treasureClient = findTreasure;
-const slashCommand = slashCommandFactory(treasureClient)
+if (!PORT) {
+  console.error(`Missing environment variable PORT`);
+  process.exit(1);
+}
+const port = PORT;
 
 app.post('/loot', (req, res) => {
-  slashCommand(req.body)
-    .then((result) => {
-      return res.json(result)
-    })
-    .catch(console.error)
+  const result = slashCommandFactory(req.body);
+  console.log(`Sending response...`);
+  return res.json(result);
 })
 
 app.get('/', function(req, res) {
