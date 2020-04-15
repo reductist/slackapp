@@ -1,9 +1,9 @@
 const fs = require('fs');
 
 const findSpell = (spellname) => {
-  const fileData = JSON.parse(fs.readFileSync(`src/spell_data.json`, 'utf-8'));
-  const spellArray = Object.entries(fileData);
-  const filtered = spellArray.find(target => target[0].toLowerCase().replace(/[|'&;$%@"<>()+, ]/g, '') === spellname.toLowerCase().replace(/\s/g, ''));
+  const spells = JSON.parse(fs.readFileSync(`src/all_spell_data.json`, 'utf-8'));
+  // const spellArray = Object.entries(fileData);
+  const filtered = spells.find(target => target.Name.toLowerCase().replace(/[\-|'&;$%@"<>()+, ]/g, '') === spellname.toLowerCase().replace(/[\-|'&;$%@"<>()+, ]/g, ''));
   console.log(`Filtered Result: ${filtered}`);
   return filtered;
 }

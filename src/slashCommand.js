@@ -3,6 +3,12 @@ const validateCommand = require('./validator.js');
 const findTreasure = require('./findTreasure.js');
 const findSpell = require('./findSpell.js');
 
+// attachments: [
+//   {
+//     image_url: 'https://cdn140.picsart.com/279558593000211.png',
+//   }
+// ]
+
 const createErrorAttachment = (error) => ({
   color: 'danger',
   text: `*Error*:\n${error.message}`,
@@ -104,19 +110,16 @@ Magic Items: ${(result) ? JSON.stringify(result[0].magic_items) : '-'}`,
 
     return {
       response_type: 'in_channel',
-      text: `Spell: ${JSON.stringify(result[0])}
-Casting Time: ${JSON.stringify(result[1].casting_time)}
-Components: ${JSON.stringify(result[1].components)}
-Description: ${JSON.stringify(result[1].description)}
-Duration: ${JSON.stringify(result[1].duration)}
-Level: ${JSON.stringify(result[1].level)}
-Range: ${JSON.stringify(result[1].range)}
-School: ${JSON.stringify(result[1].school)}`,
-      attachments: [
-        {
-          image_url: 'https://cdn140.picsart.com/279558593000211.png',
-        }
-      ]
+      text: `Spell: ${JSON.stringify(result.Name)}
+Source: ${JSON.stringify(result.Source)}
+Level: ${JSON.stringify(result.Level)}
+Casting Time: ${JSON.stringify(result['Casting Time'])}
+Duration: ${JSON.stringify(result.Duration)}
+School: ${JSON.stringify(result.School)}
+Range: ${JSON.stringify(result.Range)}
+Components: ${JSON.stringify(result.Components)}
+Classes: ${JSON.stringify(result.Classes)}
+Detail: ${JSON.stringify(result.Text)}`,
     }
   }
 }
