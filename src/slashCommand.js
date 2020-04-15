@@ -1,6 +1,7 @@
 const parseCommand = require('./tokenizer.js');
 const validateCommand = require('./validator.js');
-const findTreasure = require('./findTreasure.js')
+const findTreasure = require('./findTreasure.js');
+const findSpell = require('./findSpell.js');
 
 const createErrorAttachment = (error) => ({
   color: 'danger',
@@ -36,42 +37,87 @@ const slashCommandFactory = (body) => {
     }
   }
 
-  const { type, table, roll } = parseCommand(body.text)
+  const { type = '', table = '', roll = '', spellname = '' } = parseCommand(body.text)
 
-  console.log(`
-    Type: ${type}
-    Table: ${table}
-    Roll: ${roll}
-  `);
+  // Treasure/coin branch
+  if (type === 'loot') {
 
-  let error;
+    console.log(`
+      Type: ${type}
+      Table: ${table}
+      Roll: ${roll}
+    `);
 
-  console.log(`validating command...`)
+    let error;
 
-  if ((error = validateCommand(type, table, roll))) {
-    return {
-      text: '',
-      attachments: [createErrorAttachment(error)],
+    console.log(`Validating command request for treasure or coin...`)
+
+    if ((error = validateCommand(type, table, roll))) {
+      return {
+        text: '',
+        attachments: [createErrorAttachment(error)],
+      }
     }
-  }
 
-  console.log(`command validated, finding treasure...`)
+    console.log(`Treasure/coin command validated, finding table/roll...`)
+    const result = findTreasure(type, table, roll);
+    console.log(`Found treasure: ${JSON.stringify(result)}`)
 
-  const result = findTreasure(type, table, roll);
-
-  console.log(`Found treasure: ${result}`)
-
-  return {
-    response_type: 'in_channel',
-    text: `Table: ${table}
+    return {
+      response_type: 'in_channel',
+      text: `Table: ${table}
 Roll: ${roll}
 Precious Objects: ${(result) ? JSON.stringify(result[0].precious_objects) : '-'}
 Magic Items: ${(result) ? JSON.stringify(result[0].magic_items) : '-'}`,
-    attachments: [
-      {
-        image_url: 'https://pics.me.me/thumb_great-success-msnogenrga-great-success-borat-swimsuit-meme-on-50474141.png',
+      attachments: [
+        {
+          image_url: 'https://pics.me.me/thumb_great-success-msnogenrga-great-success-borat-swimsuit-meme-on-50474141.png',
+        }
+      ]
+    }
+  }
+
+  // Spell branch
+  if (type === 'spell') {
+
+    console.log(`
+      Type: ${type}
+      Spell: ${spellname}
+    `);
+
+    let error;
+
+    console.log(`Validating command request for spell...`)
+
+    if ((error = validateCommand(type, spellname))) {
+      return {
+        text: '',
+        attachments: [createErrorAttachment(error)],
       }
-    ]
+    }
+
+    console.log(`Spell command validated, finding spell...`)
+
+    const result = findSpell(spellname) || [];
+
+    console.log(`Found spell: ${JSON.stringify(result)}`)
+
+    return {
+      response_type: 'in_channel',
+      text: `Spell: ${JSON.stringify(result[0])}
+Casting Time: ${JSON.stringify(result[1].casting_time)}
+Components: ${JSON.stringify(result[1].components)}
+Description: ${JSON.stringify(result[1].description)}
+Duration: ${JSON.stringify(result[1].duration)}
+Level: ${JSON.stringify(result[1].level)}
+Range: ${JSON.stringify(result[1].range)}
+School: ${JSON.stringify(result[1].school)}`,
+      attachments: [
+        {
+          image_url: 'https://cdn140.picsart.com/279558593000211.png',
+        }
+      ]
+    }
   }
 }
 

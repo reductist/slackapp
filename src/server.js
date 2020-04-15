@@ -1,7 +1,6 @@
 const Express = require('express');
 const request = require('request');
 const bodyParser = require('body-parser');
-const findTreasure = require('./findTreasure.js');
 const slashCommandFactory = require('./slashCommand.js');
 
 const app = new Express();
@@ -19,7 +18,14 @@ const port = PORT;
 
 app.post('/loot', (req, res) => {
   const result = slashCommandFactory(req.body);
-  console.log(`Sending response...`);
+  console.log(`Sending response to loot table request...`);
+  return res.json(result);
+})
+
+app.post('/spell', (req, res) => {
+  const result = slashCommandFactory(req.body);
+  console.log(`Server says: result = ${JSON.stringify(result)}`)
+  console.log(`Sending response for spell request...`)
   return res.json(result);
 })
 
